@@ -1,0 +1,79 @@
+{
+  "name": "nodes-navigation-focus",
+  "version": "1.0.0",
+  "description": "Navigation nodes events manager",
+  "main": "src/core/index.ts",
+  "type": "module",
+  "scripts": {
+    "eslint": "eslint .",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miquel-Lopez-Avila/nodes-navigation-focus.git"
+  },
+  "author": {
+    "name": "Miquel Lopez",
+    "email": "miquellopezavila@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "tizen",
+    "react-hooks",
+    "remote-control-navigation",
+    "navigation",
+    "tv-navigation",
+    "nodes",
+    "focus",
+    "remote-control",
+    "smart-tv",
+    "webos",
+    "webos-tv",
+    "tizen-tv",
+    "key-navigation"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miquel-Lopez-Avila/nodes-navigation-focus/issues"
+  },
+  "homepage": "https://github.com/Miquel-Lopez-Avila/nodes-navigation-focus#readme",
+  "babel": {
+    "presets": [
+      "@babel/typescript",
+      "@babel/preset-react",
+      [
+        "@babel/env",
+        {
+          "modules": false
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "@babel/runtime": "^7.18.3",
+    "@types/lodash": "^4.14.182",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}

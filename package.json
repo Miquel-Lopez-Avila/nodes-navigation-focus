@@ -1,6 +1,6 @@
 {
   "name": "nodes-navigation-focus",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Navigation nodes events manager",
   "main": "dist/src/index.ts",
   "type": "module",

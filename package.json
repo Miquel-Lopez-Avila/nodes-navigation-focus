@@ -1,8 +1,8 @@
 {
   "name": "nodes-navigation-focus",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Navigation nodes events manager",
-  "main": "src/core/index.ts",
+  "main": "dist/src/index.ts",
   "type": "module",
   "scripts": {
     "eslint": "eslint .",

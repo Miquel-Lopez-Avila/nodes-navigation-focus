@@ -163,7 +163,7 @@ const [matrixRef, { focused, setFocus, hasFocusedChild }] = useNavigation({
 
 ## Demo
 
-This is an example of how the focus looks in an application example. Click [here](https://github.com/Miquel-Lopez-Avila/nodes-navigation-focus-example) to see the full demo.
+This is an example of how the focus looks in an application example. Click [here](https://miquel-lopez-avila.github.io/nodes-navigation-focus-example/) to see the full demo.
 
 ![App Screenshot](https://user-images.githubusercontent.com/75219640/189481193-62e21400-840a-4fd4-b0fe-314ae153ffe7.gif)
 
